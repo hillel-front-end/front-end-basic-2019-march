@@ -12,7 +12,7 @@
         <title>float елемент не учавствует в потоке документа</title>
         <style>
             *{
-                font-size: 30px;
+                font-size: 50px;
             }
             .parent{
                 border:1px solid red;
@@ -28,12 +28,29 @@
                 background-color: yellow;
                 border:1px solid black;
             }
+
+            .child-first {
+                width: 200px;
+                height: 200px;
+                background-color: red;
+            }
+
+            .child-second {
+                width: 200px;
+                height: 200px;
+                margin-left: 10px;
+                background-color: yellow;
+            }
+            .clearfix {
+                clear: both;
+            }
         </style>
     </head>
     <body>
          <div class="parent">
-            <img src="cat.jpg" alt="cat" class="float-element">
-            <!--<div class="block">разкоментировать и закоментировать парент</div>-->
+            <div class="child-first float-element">1</div>
+            <div class="child-second float-element"> 2 </div>
+            <div class="clearfix"></div>
         </div>
     </body>
 </html>
