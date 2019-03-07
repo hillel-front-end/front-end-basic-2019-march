@@ -8,7 +8,6 @@
   * [Самые простые техники адаптивной верстки](https://habr.com/post/144003/)
   * [Обучающее видео про отличные иконки](https://www.youtube.com/watch?v=m5Ub-MXKMgA)
 
-№3Верстаем макет при помощи flexbox + form. 
-![Alt Text](maket.jpg)
+№3Верстаем макет при помощи flexbox 
 
 
