@@ -55,26 +55,26 @@
 ## lection_8_css_practice_lesson
 + coding site  verty(float, position)
 
-##lection_009_ media_query, flex-box 
+## lection_009_ media_query, flex-box 
 + flex-box
 + media_query
 
-##lection_010_ SASS + practice
+## lection_010_ SASS + practice
 + import
 + nesting
 + variables
 + mixins + mixins with params
 
-##lection_011_ HTML5, CSS3
+## lection_011_ HTML5, CSS3
 + html5 semantic tags
 + тени
 + трансформации
 + анимации keyframes
 
-##lection_012-014_practice desktop-first
+## lection_012-014_practice desktop-first
 + верстка desktop, tablet, mobile (sass, flexbox, keyframes)
 
-##lection_015_, min,max, bootstrap
+## lection_015_, min,max, bootstrap
 + min\max-width, min\max-height
 + bootstrap 4
 
@@ -83,7 +83,7 @@
 
 ##lection_017-019-mobile-first practice
 
-##lection_20_rwd_awd, sass_deep + sprites, emmet
+## lection_20_rwd_awd, sass_deep + sprites, emmet
 + rwd_awd
 + sass_deep(loop, conditions)
 + sprites

@@ -11,7 +11,10 @@
 
 
 
-3. Практика: доделать все ДЗ и Практики.
+3. Практика:
+
+ *  Верстаем такую страницу, верстаем под мобильную версию (пк версии быть не должно). Пытаемся реализовать в pixel perfect):
+   https://material-design.storage.googleapis.com/publish/material_v_9/0B6Okdz75tqQsSlpfZG9Vby10MXM/components_dividers_usage1.png
 
 
  
