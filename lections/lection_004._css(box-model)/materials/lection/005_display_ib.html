@@ -1,0 +1,73 @@
+<!--
+    Это значение – означает элемент, который продолжает находиться в строке (inline),
+    при этом может иметь важные свойства блока.
+
+    Как и инлайн-элемент(inline):
+
+        - Располагается в строке.
+        - Размер устанавливается по содержимому.
+
+    Во всём остальном – это блок, то есть:
+        - Работают свойства width/height.
+        - доступны margin-top, margin-bottom.
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>display: inline-block</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body{
+            margin: 0px;
+        }
+
+        .item{
+            display: inline;
+            width: 100px;
+            height: 100px;
+            margin: 5px;
+        }
+
+        span{
+            padding: 10px;
+            border-radius: 10px;
+            border: 1px solid black;
+            color: black;
+            font-weight: bold;
+            font-size: 20px;
+            text-align: center;
+            /*cursor: pointer; */
+        }
+
+        .parent {
+            width: 100%;
+        }
+
+        .block {
+            width: 49.8%;
+            height: 100px;
+            border: 1px solid red;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <!-- <span class="item">Главная</span>
+    <span class="item">Галерея</span>
+    <span class="item">Новость</span>
+    <span class="item">Блог</span> -->
+
+    <!-- <div class="parent">
+        <div class="block"></div>
+        <div class="block"></div>
+    </div> -->
+
+    <div>
+        asdsadasd
+    </div>
+</body>
+</html>
