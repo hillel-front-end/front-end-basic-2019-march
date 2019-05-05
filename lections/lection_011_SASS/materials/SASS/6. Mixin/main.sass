@@ -1,0 +1,47 @@
+@mixin flex ($fd, $jc, $ai) 
+  display: flex
+  flex-direction: $fd
+  justify-content: $jc
+  align-items: $ai
+
+
+@mixin transition ($time) 
+  transition: all $time
+
+$type: spring
+$bgc-gold: gold
+
+body
+  height: 100vh
+  @if $type == summer 
+    background: $bgc-gold
+    color: $bgc-gold
+    font-size: 25px
+  @else if $type == spring 
+    background: pink
+    border: 10px solid $bgc-gold
+  @else 
+    background: blue
+
+.nav 
+  position: relative
+  color: red
+  height: 100px
+  width: 100%
+  @if $type == summer 
+    background: $bgc-gold
+  @else if $type == spring 
+    background: black 
+    color: yellow
+  @else 
+    background: blue
+  +flex(row, center, center)
+  &-item
+    +transition(30s)
+    color: red
+    &:hover
+      +transition(60s)
+      color: black
+
+.footer
+  +flex(column, flex-start, center)

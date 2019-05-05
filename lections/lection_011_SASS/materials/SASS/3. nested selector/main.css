@@ -1,0 +1,18 @@
+.header {
+  position: relative;
+}
+.header .logo {
+  position: absolute;
+  left: 0px;
+}
+.header .logo:hover {
+  color: red;
+}
+.header .logo:before {
+  content: "";
+}
+.header .logo:after {
+  content: "";
+}
+
+/*# sourceMappingURL=main.css.map */

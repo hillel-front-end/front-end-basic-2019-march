@@ -1,0 +1,35 @@
+body {
+  height: 100vh;
+  background: pink;
+  border: 10px solid gold;
+}
+
+.nav {
+  position: relative;
+  color: red;
+  height: 100px;
+  width: 100%;
+  background: black;
+  color: yellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.nav-item {
+  transition: all 30s;
+  color: red;
+}
+.nav-item:hover {
+  transition: all 60s;
+  color: black;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+/*# sourceMappingURL=main.css.map */
